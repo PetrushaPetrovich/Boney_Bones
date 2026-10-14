@@ -10,6 +10,11 @@
 </p>
 
 <p align="center">
+  <i>Dedicated to Bonya, my beloved cat, who is no longer with us · <a href="https://www.instagram.com/boneymeme/">@boneymeme</a></i><br>
+  <i>Посвящается Боне, моей любимой кошке, которой больше нет с нами · <a href="https://www.instagram.com/boneymeme/">@boneymeme</a></i>
+</p>
+
+<p align="center">
   <b>Version 1.9</b> · After Effects 24.x or newer · Author: Petrusha Petrovich · <a href="mailto:syslef@gmail.com">syslef@gmail.com</a>
 </p>
 
