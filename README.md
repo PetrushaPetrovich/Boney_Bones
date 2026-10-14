@@ -104,6 +104,7 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 | `boney_files/` | Scripts, presets (`.ffx`) and the `boney_template.aep` template. |
 | `RES/limb.jsx` | The limb rig expression (IK / FK blend, Follow, Flip, stretch) used by the `IK_Controller` sliders. |
 | `docs/images/` | Logo and screenshots for this page. |
+| `sync_from_workdir.ps1` | Copies the published file set from the author's working folder into this repository. |
 
 ---
 
@@ -192,3 +193,4 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 | `boney_files/` | Скрипты, пресеты (`.ffx`) и шаблон `boney_template.aep`. |
 | `RES/limb.jsx` | Экспрешен рига конечности (блен IK / FK, Follow, Flip, стретч) для слайдеров `IK_Controller`. |
 | `docs/images/` | Логотип и скриншоты для этой страницы. |
+| `sync_from_workdir.ps1` | Копирует публикуемый набор файлов из рабочей папки автора в этот репозиторий. |
