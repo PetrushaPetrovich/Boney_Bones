@@ -17,9 +17,11 @@ Copy-Item $panel.FullName $Dest -Force
 # Скрипты, пресеты и шаблон; папка в репозитории зеркалит рабочую
 robocopy "$Source\boney_files" "$Dest\boney_files" /MIR /NJH /NJS /NP /NDL /NFL | Out-Null
 
-# Limb expression and the plain-text readme / Экспрешен конечности и текстовый readme
-New-Item -ItemType Directory -Force "$Dest\RES" | Out-Null
-Copy-Item "$Source\RES\limb.jsx" "$Dest\RES\limb.jsx" -Force
+# Limb expression (working folder keeps it in RES\ or expressions\) and the plain-text readme
+# Экспрешен конечности (в рабочей папке лежит в RES\ или expressions\) и текстовый readme
+New-Item -ItemType Directory -Force "$Dest\expressions" | Out-Null
+$limb = @("$Source\expressions\limb.jsx", "$Source\RES\limb.jsx") | Where-Object { Test-Path $_ } | Select-Object -First 1
+if ($limb) { Copy-Item $limb "$Dest\expressions\limb.jsx" -Force }
 Copy-Item "$Source\README.txt" "$Dest\README.txt" -Force
 
 git -C $Dest status --short
