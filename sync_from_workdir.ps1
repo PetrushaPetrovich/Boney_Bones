@@ -1,6 +1,6 @@
 # Copy the published file set from the working folder into this repository.
 # Копирует публикуемый набор файлов из рабочей папки в этот репозиторий.
-# Usage / запуск:  powershell -File sync_from_workdir.ps1 [-Source <working folder>]
+# Usage / запуск:  powershell -ExecutionPolicy Bypass -File sync_from_workdir.ps1 [-Source <working folder>]
 param(
     [string]$Source = "C:\Programs\_Plugins\AeScripts\_My\Boney_Bones"
 )

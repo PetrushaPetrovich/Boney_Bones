@@ -71,6 +71,8 @@ The panel wraps buttons onto several rows and collapses into a compact mode (emo
 
 ### Installation
 
+Download the archive from the [latest release](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest) and unpack it.
+
 Put `Boney_Bones_1.9.jsx` and the `boney_files` folder into the ScriptUI Panels folder:
 
 | OS | Path |
@@ -105,6 +107,7 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 | `RES/limb.jsx` | The limb rig expression (IK / FK blend, Follow, Flip, stretch) used by the `IK_Controller` sliders. |
 | `docs/images/` | Logo and screenshots for this page. |
 | `sync_from_workdir.ps1` | Copies the published file set from the author's working folder into this repository. |
+| `build_release_zip.ps1` | Builds the distribution archive `dist/Boney_Bones_<ver>.zip` (panel + `boney_files` + `README.txt`) for a GitHub Release. |
 
 ---
 
@@ -160,6 +163,8 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 
 ### Установка
 
+Скачайте архив из [последнего релиза](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest) и распакуйте его.
+
 Положите `Boney_Bones_1.9.jsx` и папку `boney_files` в папку ScriptUI Panels:
 
 | ОС | Путь |
@@ -194,3 +199,4 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 | `RES/limb.jsx` | Экспрешен рига конечности (блен IK / FK, Follow, Flip, стретч) для слайдеров `IK_Controller`. |
 | `docs/images/` | Логотип и скриншоты для этой страницы. |
 | `sync_from_workdir.ps1` | Копирует публикуемый набор файлов из рабочей папки автора в этот репозиторий. |
+| `build_release_zip.ps1` | Собирает архив дистрибутива `dist/Boney_Bones_<ver>.zip` (панель + `boney_files` + `README.txt`) для GitHub Release. |

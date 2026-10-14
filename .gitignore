@@ -16,3 +16,6 @@ CLAUDE.md
 # OS junk / Системный мусор
 Thumbs.db
 .DS_Store
+
+# Built release archives / Собранные архивы релизов
+dist/
