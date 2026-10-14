@@ -1,0 +1,18 @@
+# Working folders not meant for the public repo / Рабочие папки, не для публичного репозитория
+_Archive/
+_Preza/
+_Logo/
+
+# Build / distribution archives (publish them as GitHub Releases) / Архивы дистрибутива (публикуются как Releases)
+*.zip
+
+# Editor and local notes / Редактор и локальные заметки
+.vscode/
+*.code-workspace
+*.lnk
+CLAUDE.md
+ДОДЕЛАТЬ.md
+
+# OS junk / Системный мусор
+Thumbs.db
+.DS_Store
