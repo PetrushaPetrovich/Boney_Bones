@@ -51,7 +51,7 @@ The legendary Duik has a few shortcomings that pushed me to write my own tool: s
 
 And the frame-by-frame tools are a bomb: with PSD frames, Photoshop round-trips and an onion skin, After Effects becomes a full-featured animation package.
 
-The launcher panel (`Boney_Bones_1.9.jsx`) is just the front door: buttons that run the scripts and presets from the `boney_files` folder, grouped by rigging stage. The panel wraps buttons onto several rows and collapses into a compact mode (emoji-only buttons) when space is short; full names show in hover tooltips.
+The launcher panel (`Boney_Bones_1.9.jsx`) runs the scripts and presets from the `boney_files` folder, grouped by rigging stage. The panel is resizable: it wraps buttons onto several rows and collapses into a compact mode to save screen space.
 
 <p align="center">
   <img src="docs/images/panel_full.png" alt="Boney Bones panel, full mode" height="420">
@@ -224,7 +224,7 @@ Boney Bones — скрипт для создания удобных и реда�
 
 А покадровая анимация в AE — просто бомба: с PSD-кадрами, обменом с Photoshop и onion skin After Effects становится полноценным анимационным софтом.
 
-Панель-лаунчер (`Boney_Bones_1.9.jsx`) — лишь вход: кнопки запускают скрипты и пресеты из папки `boney_files`, сгруппированные по этапам рига. Панель переносит кнопки на несколько строк и сворачивается в компактный режим (кнопки-смайлики) при нехватке места; полные названия видны в подсказках при наведении.
+Панель-лаунчер (`Boney_Bones_1.9.jsx`) запускает скрипты и пресеты из папки `boney_files`, сгруппированные по этапам рига. Панель растягивается, переносит кнопки на несколько строк и сворачивается в компактный режим для экономии места на экране.
 
 <p align="center">
   <img src="docs/images/panel_full.png" alt="Панель Boney Bones, полный режим" height="420">
