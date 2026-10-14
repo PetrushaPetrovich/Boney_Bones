@@ -20,8 +20,8 @@ robocopy "$Source\boney_files" "$Dest\boney_files" /MIR /NJH /NJS /NP /NDL /NFL 
 # Limb expression (working folder keeps it in RES\ or expressions\) and the plain-text readme
 # Экспрешен конечности (в рабочей папке лежит в RES\ или expressions\) и текстовый readme
 New-Item -ItemType Directory -Force "$Dest\expressions" | Out-Null
-$limb = @("$Source\expressions\limb.jsx", "$Source\RES\limb.jsx") | Where-Object { Test-Path $_ } | Select-Object -First 1
-if ($limb) { Copy-Item $limb "$Dest\expressions\limb.jsx" -Force }
+$limb = @("$Source\expressions\ikController_sliders.jsx", "$Source\expressions\limb.jsx", "$Source\RES\limb.jsx") | Where-Object { Test-Path $_ } | Select-Object -First 1
+if ($limb) { Copy-Item $limb "$Dest\expressions\ikController_sliders.jsx" -Force }
 Copy-Item "$Source\README.txt" "$Dest\README.txt" -Force
 
 git -C $Dest status --short

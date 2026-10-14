@@ -1,9 +1,9 @@
 // author: Petrusha Petrovich <syslef@gmail.com>
-// limb — one expression for all limb sliders (bPosition, aRotation, bRotation, aScale, bScale,
-// cPosition, cRotation); branch by thisProperty.name. Only cPosition reads the raw hand target,
+// IK_Controller effect, slider properties: one expression for all limb sliders (bPosition, aRotation,
+// bRotation, aScale, bScale, cPosition, cRotation); branch by thisProperty.name. Only cPosition reads the raw hand target,
 // every other branch derives from final layer positions, so layer order never affects the result.
-// limb — один экспрешн на все слайдеры конечности (bPosition, aRotation, bRotation, aScale, bScale,
-// cPosition, cRotation); ветка — по thisProperty.name. Сырую цель кисти читает только cPosition,
+// Эффект IK_Controller, свойства-слайдеры: один экспрешн на все слайдеры конечности (bPosition, aRotation,
+// bRotation, aScale, bScale, cPosition, cRotation); ветка — по thisProperty.name. Сырую цель кисти читает только cPosition,
 // остальные ветки выводятся из финальных позиций слоёв, поэтому порядок слоёв на результат не влияет.
 // Ver: 7.1
 

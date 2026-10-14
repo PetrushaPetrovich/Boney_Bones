@@ -104,7 +104,7 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 |---|---|
 | `Boney_Bones_1.9.jsx` | The launcher panel. |
 | `boney_files/` | Scripts, presets (`.ffx`) and the `boney_template.aep` template. |
-| `expressions/` | The rig expressions as plain text: `limb.jsx` (IK / FK blend, Follow, Flip, stretch, used by the `IK_Controller` sliders), `position.jsx` / `rotation.jsx` / `scale.jsx` (bone layer transform wiring), `followPosition_setPosition.jsx` and `followRotation_addRotation.jsx` (the Follow Position / Follow_Rotation effects). |
+| `expressions/` | The rig expressions as plain text: `ikController_sliders.jsx` (IK / FK blend, Follow, Flip, stretch; one text for all `IK_Controller` sliders), `position.jsx` / `rotation.jsx` / `scale.jsx` (bone layer transform wiring), `followPosition_setPosition.jsx` and `followRotation_addRotation.jsx` (the Follow Position / Follow_Rotation effects). |
 | `docs/images/` | Logo and screenshots for this page. |
 | `sync_from_workdir.ps1` | Copies the published file set from the author's working folder into this repository. |
 | `build_release_zip.ps1` | Builds the distribution archive `dist/Boney_Bones_<ver>.zip` (panel + `boney_files` + `README.txt`) for a GitHub Release. |
@@ -196,7 +196,7 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 |---|---|
 | `Boney_Bones_1.9.jsx` | Панель-лаунчер. |
 | `boney_files/` | Скрипты, пресеты (`.ffx`) и шаблон `boney_template.aep`. |
-| `expressions/` | Экспрешены рига текстом: `limb.jsx` (блен IK / FK, Follow, Flip, стретч, стоит на слайдерах `IK_Controller`), `position.jsx` / `rotation.jsx` / `scale.jsx` (обёртки transform-свойств костей), `followPosition_setPosition.jsx` и `followRotation_addRotation.jsx` (эффекты Follow Position / Follow_Rotation). |
+| `expressions/` | Экспрешены рига текстом: `ikController_sliders.jsx` (блен IK / FK, Follow, Flip, стретч; один текст на все слайдеры `IK_Controller`), `position.jsx` / `rotation.jsx` / `scale.jsx` (обёртки transform-свойств костей), `followPosition_setPosition.jsx` и `followRotation_addRotation.jsx` (эффекты Follow Position / Follow_Rotation). |
 | `docs/images/` | Логотип и скриншоты для этой страницы. |
 | `sync_from_workdir.ps1` | Копирует публикуемый набор файлов из рабочей папки автора в этот репозиторий. |
 | `build_release_zip.ps1` | Собирает архив дистрибутива `dist/Boney_Bones_<ver>.zip` (панель + `boney_files` + `README.txt`) для GitHub Release. |
