@@ -13,6 +13,14 @@
   <b>Version 1.9</b> · After Effects 24.x or newer · Author: Petrusha Petrovich · <a href="mailto:syslef@gmail.com">syslef@gmail.com</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest/download/Boney_Bones_1.9.zip"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20DOWNLOAD-Boney__Bones__1.9.zip-2ea44f?style=for-the-badge" alt="Download Boney_Bones_1.9.zip"></a>
+</p>
+<p align="center">
+  ⬇️ <b><a href="https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest/download/Boney_Bones_1.9.zip">Download Boney_Bones_1.9.zip</a></b> · <a href="https://github.com/PetrushaPetrovich/Boney_Bones/releases">all releases</a><br>
+  ⬇️ <b><a href="https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest/download/Boney_Bones_1.9.zip">Скачать Boney_Bones_1.9.zip</a></b> · <a href="https://github.com/PetrushaPetrovich/Boney_Bones/releases">все релизы</a>
+</p>
+
 ---
 
 [English](#english) · [Русский](#русский)
@@ -69,18 +77,17 @@ The panel wraps buttons onto several rows and collapses into a compact mode (emo
 | 📂 **Open layer** | Open the source files of the selected layers in their default apps (PSD opens in Photoshop). |
 | 🧅 **Add Onion Skin** | Add an adjustment guide shape layer `Onion Skin` on top of the comp with CC Wide Time and CC Composite; no preset needed. |
 
-### Installation
+### ⬇️ Download and installation
 
-Download the archive from the [latest release](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest) and unpack it.
-
-Put `Boney_Bones_1.9.jsx` and the `boney_files` folder into the ScriptUI Panels folder:
+1. ⬇️ **[Download Boney_Bones_1.9.zip](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest/download/Boney_Bones_1.9.zip)** (or pick it on the [Releases](https://github.com/PetrushaPetrovich/Boney_Bones/releases) page) and unpack it.
+2. 📁 Put `Boney_Bones_1.9.jsx` and the `boney_files` folder into the ScriptUI Panels folder:
 
 | OS | Path |
 |---|---|
 | Windows | `C:\Program Files\Adobe\Adobe After Effects <ver>\Support Files\Scripts\ScriptUI Panels\` |
 | macOS | `/Applications/Adobe After Effects <ver>/Scripts/ScriptUI Panels/` |
 
-Open: **Window → Boney_Bones_1.9.jsx**. Keep the panel and the `boney_files` folder side by side: button paths are relative.
+3. ▶️ Open: **Window → Boney_Bones_1.9.jsx**. Keep the panel and the `boney_files` folder side by side: button paths are relative.
 
 ### Usage (general order)
 
@@ -161,18 +168,17 @@ Each action is wrapped in its own Undo group, so it is undone with the usual Ctr
 | 📂 **Open layer** | Открыть исходники выделенных слоёв в приложениях по умолчанию (PSD откроется в Photoshop). |
 | 🧅 **Add Onion Skin** | Добавить наверх композиции корректирующий направляющий шейп-слой `Onion Skin` с CC Wide Time и CC Composite; пресет не нужен. |
 
-### Установка
+### ⬇️ Скачивание и установка
 
-Скачайте архив из [последнего релиза](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest) и распакуйте его.
-
-Положите `Boney_Bones_1.9.jsx` и папку `boney_files` в папку ScriptUI Panels:
+1. ⬇️ **[Скачать Boney_Bones_1.9.zip](https://github.com/PetrushaPetrovich/Boney_Bones/releases/latest/download/Boney_Bones_1.9.zip)** (или выберите на странице [Releases](https://github.com/PetrushaPetrovich/Boney_Bones/releases)) и распакуйте.
+2. 📁 Положите `Boney_Bones_1.9.jsx` и папку `boney_files` в папку ScriptUI Panels:
 
 | ОС | Путь |
 |---|---|
 | Windows | `C:\Program Files\Adobe\Adobe After Effects <ver>\Support Files\Scripts\ScriptUI Panels\` |
 | macOS | `/Applications/Adobe After Effects <ver>/Scripts/ScriptUI Panels/` |
 
-Откройте: **Window → Boney_Bones_1.9.jsx**. Панель и папку `boney_files` держите рядом: пути в кнопках относительные.
+3. ▶️ Откройте: **Window → Boney_Bones_1.9.jsx**. Панель и папку `boney_files` держите рядом: пути в кнопках относительные.
 
 ### Использование (общий порядок)
 
